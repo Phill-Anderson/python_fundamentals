@@ -1,0 +1,12 @@
+// project үүсгэхдээ өгсөн командуудын жагсаалт:
+pipenv install django
+pipenv shell
+django-admin 
+django-admin startproject PROJECT_NAME    
+django-admin startproject PROJECT_NAME .   --> django нь одоо байгаа directory - гоо ашиглана гэдгийг заана
+python manage.py --> боломжит коммандуудын жагсаалтыг харах
+python manage.py runserver   ---> сервэрийг асаах
+
+pipenv --venv
+
+shift+ctl+p  ---> select Python interpretator ===> Enter interpretator path ====> add this ==> C:\Users\itwizard-10\.virtualenvs\djangoTest-SwxDwAKQ\bin\python
